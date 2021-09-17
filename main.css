@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;500;900&display=swap');
+
+h1{
+   font-family: "Urbanist", sans-serif;
+   font-weight: 900;
+}
+
+h3{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+}
+
+p{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+
+}
+
+.body-main{
+  background-color: black;
+  background-image: url("./Images/KazakhMasterShot.jpg");
+  width: 100%;
+}
+
+.body-pictures{
+  background-color: black;
+  background-image: url("./Images/Landscape.jpg");
+  width: 100%;
+}
+
+.body-About{
+  background-color: black;
+  background-image: url("./Images/SamburuMasterShot.jpg");
+  width: 100%;
+}
+
+.body-Books{
+  background-color: black;
+  background-image: url("./Images/MarquesansMasterShot.jpg");
+  width: 100%;
+}
+
+.body-SocialMedia{
+  background-color: black;
+  background-image: url("./Images/SadhuMasterShot.jpg");
+  width: 100%;
+}
+
+.Back-Button{
+
+  border:1px black;
+  border-radius: 2px;
+  text-align: center;
+  background-color: #d1d1d1;
+  margin: 1%;
+  margin-right: 70%;
+  margin-left: 5%;
+  width: 20%;
+  height: 36px;
+  opacity: 90%;
+  padding-bottom: 1%;
+
+  }
+
+.column {
+  flex: 50%;
+  margin: 1%;
+  background-color:#d1d1d1;
+  opacity: 80%;
+
+}
+
+.column2 {
+  flex: 50%;
+  margin: 1%;
+  background-color:#d1d1d1;
+  opacity: 90%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+
+}
+
+.column3 {
+  flex: 50%;
+  margin: 1%;
+  /* background-color:#d1d1d1; */
+  opacity: 95%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+
+}
+
+.column4 {
+  flex: 25%;
+  margin: 1%;
+  /* background-color:#d1d1d1; */
+  opacity: 95%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+.column5 {
+  flex: 50%;
+  margin: 1%;
+  /* background-color:#d1d1d1; */
+  opacity: 90%;
+
+}
+
+.column-link {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+.column-link:hover{
+  opacity: 60%;
+  width: 97%;
+
+}
+
+.image{
+  width: 100%;
+}
+
+.image2{
+  width: 100%;
+}
+
+/* .image:hover{
+  opacity: 60%;
+  display: block;
+
+} */
+
+.main-blocks {
+  text-align: center;
+  color:Black;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+/* From now on is just things that I tried:
+
+.AnimatedBackground {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("./Images/KazakhMasterShot.jpg");
+  animation: mymove 30s infinite;
+}
+
+@keyframes mymove {
+  from {background-image: url("./Images/KazakhMasterShot.jpg");}
+  to {background-image: url("./Images/SadhuMasterShot.jpg");}
+
+} */
+
+/* .column2 {
+  flex: 250px;;
+  margin: 1%;
+  border: 3px solid #094173;
+  border-radius:15px;
+  background-color:#419bbf;
+  box-shadow: 4px 3px #F2DF80;
+
+} */
+
+/*
+img{
+  width: 200px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}  */
